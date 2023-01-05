@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?=Poppins:wght@200;300;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body,.warrper, .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    min-height: 100vh;
+    background-color: #4a98f7;
+}
+.warrper {
+    width: 440px;
+    background-color: #fff;
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 30px;
+}
+.warrper img {
+    max-width: 100px;
+}
+.warrper h1 {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 30px 0;
+}
+.warrper .content {
+    width: 100%;
+    justify-content: space-between;
+}
+.warrper .content .disabled {
+    opacity: 0.6;
+    pointer-events: none;
+}
+.warrper .content .column {
+    border: 1px solid #999;
+    border-radius: 5px;
+    width: calc(100% / 3 - 5px);
+    padding: 0 10px;
+}
+.warrper .content .column select {
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    font-size: 16px;
+}
+.warrper button {
+    width: 100%;
+    outline: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 17px 0;
+    border-radius: 5px;
+    background-color: #4a98f7;
+}
